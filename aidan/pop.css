@@ -17,3 +17,29 @@ nav{
 .visual{
     background-color: #C6C5B9;
 }
+
+.oswald{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .dokdo {
+    font-family: "East Sea Dokdo", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+  }
+
+  .staat {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .ibm {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

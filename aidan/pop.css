@@ -1,5 +1,5 @@
 body{
-    background-color: #4A6D7C;
+    background-color: #7EA3CC
 }
 
 header{
@@ -15,7 +15,7 @@ nav{
 }
 
 .visual{
-    background-color: #C6C5B9;
+    background-color: #2A4849;
 }
 
 .oswald{
@@ -42,4 +42,8 @@ nav{
     font-weight: 400;
     font-style: normal;
   }
+
+  .border-5 {
+    border-width:5px !important;
+}
   

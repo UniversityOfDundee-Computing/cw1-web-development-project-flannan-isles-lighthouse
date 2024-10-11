@@ -18,7 +18,14 @@ nav{
     background-color: #2A4849;
 }
 
-.oswald{
+.oswald1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+.oswald2{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;

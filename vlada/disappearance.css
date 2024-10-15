@@ -12,12 +12,33 @@
 }
 
 .bg {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(228, 228, 228);
 }
 
 .borderstyle {
-    border-style: solid;
-    border-width: 0.5px;
-    border-color: grey;
-    background-color: rgb(251, 251, 251);
+    border-color: #465762;
+    border-left-width: 2.5px;
+    border-left-style: solid;
+}
+
+.contentquote {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    padding-left: 22px;
+}
+
+.bigquote {
+    color: #0a0065;
+    font-size: 4.4em;
+    position: absolute;
+    margin-top: -22px;
+}
+
+.bigquote:first-of-type {
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.pallign {
+    text-align: justify;
 }

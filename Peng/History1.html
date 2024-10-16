@@ -12,7 +12,7 @@
          @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
 
         .history-section {
-            background-color: #7EA3CC;
+            background-color: #cfe0f4;
             padding: 50px 20px;
         }
         .history-title {
@@ -21,7 +21,7 @@
             font-family: "Oswald", sans-serif;
             font-optical-sizing: auto;
             font-style: normal;
-            color: #FFFFFF;
+            color: #0b0b0b;
         }
         .history-content {
             font-family: "IBM Plex Serif", serif;
@@ -41,7 +41,7 @@
 </head>
 <body>
     <!-- 導覽列 -->
-    <nav class="navbar navbar-light" style="background-color: #FFFFFF;">
+    <nav class="navbar navbar-dark navcolor" data-bs-theme="dark" style="background-color: #2c5789;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Flannan Isles Lighthouse</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,8 +68,13 @@
 
     <!-- 歷史部分 -->
     <section class="history-section">
-        <div class="container">
-            <h2 class="history-title">Flannan Isles Lighthouse History</h2>
+        <div class="container py-2">
+            <div class="row">
+                <div class="col">
+                    <div class="card text-bg-light border-3">
+                        <div class="card-header">Flannan Isles Lighthouse History</div>
+                        <div class="row mt-5 mb-0 mx-5">
+                            <div class="col align-self-center">
 
                 <!-- 置中文字 -->
                 <div class="text-center"></div>
@@ -79,7 +84,7 @@
                 <!-- 左側圖片 -->
                 <div class="row">
                 <div class="col-md-6">
-                    <div class="card" style="width: 32rem;">
+                    <div class="card" style="width: 28rem;">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Flannan_Isles_southwest_from_the_lighthouse_-_Geograph-3204860-by-Chris-Downer.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <p class="card-text">The remains of the lighthouse railway in 2012. The "Clapham Junction" fork is visible at left middle.</p>
@@ -106,7 +111,7 @@
                 
                 <!-- 右側圖片 -->
                 <div class="col-md-6 d-flex align-items-center">
-                    <div class="card" style="width: 30rem;">
+                    <div class="card" style="width: 29rem;">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/St._Flannan%27s_Cell_and_Flannan_Isles_Lighthouse_-_geograph.org.uk_-_623920.jpg" class="card-img-top" alt="..." style="width: 100%; height: auto;">
                         <div class="card-body">
                             <p class="card-text">The Chapel of St. Flannan can be seen on the slope to the right of the lighthouse on Eilean Mòr.</p>
@@ -121,10 +126,11 @@
 
     <main>
         <p class="text-center" style="background-color: #FFFFFF;">
-            <a href= http://127.0.0.1:5500/Peng/activity1.html class="btn btn-primary">Next</a>
+            <a href= http://127.0.0.1:5500/vlada/disappearance.html class="btn btn-primary" style="background-color: #2c5789;">Next</a>
         </p>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+

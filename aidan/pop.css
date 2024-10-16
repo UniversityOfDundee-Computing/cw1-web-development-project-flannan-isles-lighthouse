@@ -1,3 +1,5 @@
+/*main parts*/
+
 body{
     background-color: #7EA3CC
 }
@@ -14,9 +16,11 @@ nav{
     background-color: #62929E;
 }
 
-.visual{
+.cardz{
     background-color: #2A4849;
 }
+
+/*fonts*/
 
 .oswald1{
     font-family: "Oswald", sans-serif;
@@ -49,6 +53,8 @@ nav{
     font-weight: 400;
     font-style: normal;
   }
+
+  /*added borders*/
 
   .border-5 {
     border-width:5px !important;

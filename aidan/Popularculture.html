@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
     </style>
@@ -20,15 +19,15 @@
 
 <body>
     <!--Nav bar start-->
-    <nav class="navbar navbar-light" style="background-color: #ffffff;">
+    <nav class="navbar navbar-dark nav-color" style="background-color: #0e2652;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Flannan Isles Lighthouse</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <a class="navbar-brand mx-5" href="#">Home</a>
+            <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav mx-5">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
                     </li>
@@ -47,13 +46,38 @@
     </nav>
     <!--cards with pics-->
     <main>
-        <div class="container text-center p-5">
+        <div class="container-fluid text-center animate__animated animate__fadeInDown" style="background: linear-gradient(to right, #8f98a4,  #ebeef0); box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.6);">
             <div class="row">
-                <div class="col">
-                    <h2 class="animate__animated animate__fadeInDown oswald1 text-light">Popular Culture</h2>
+                <div class="col-6 align-self-center">
+                    <h2 class="oswald1">Popular</h2>
+                    <h2 class="oswald1">Culture</h2>
+                </div>
+                <div class="col-6">
+                    <div id="header carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tardis_BBC_Television_Center_%28cropped%29.jpg/800px-Tardis_BBC_Television_Center_%28cropped%29.jpg"
+                                    alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="https://upload.wikimedia.org/wikipedia/en/7/7c/Lightsoutcover.jpg"
+                                    alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://www.operatoday.com/Lighthouse1.png"
+                                    alt="Third slide">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        
+
+
+
         <div class="container my-3">
             <div class="row">
                 <div class="col">
@@ -61,7 +85,7 @@
                         style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="https://thingsilike.live/wp-content/uploads/2020/11/doctor-who.jpg?w=677"
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tardis_BBC_Television_Center_%28cropped%29.jpg/800px-Tardis_BBC_Television_Center_%28cropped%29.jpg"
                                     class="img-fluid" alt="doctor who">
                             </div>
                             <div class="col-md-8">
@@ -70,6 +94,11 @@
                                     <p class="card-text ibm">Fictional use of this premise was featured in the Doctor
                                         Who
                                         serial Horror of Fang Rock.</p>
+                                    <p class="card-text copyright">Image credit:By Babbel1996 - Own work (Transferred
+                                        from
+                                        de.wikipedia to Commons by Saibo using CommonsHelper.), CC BY 2.5,
+                                        https://commons.wikimedia.org/w/index.php?curid=151485317
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -80,14 +109,16 @@
                         style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Peter_Maxwell_Davies.jpg/1280px-Peter_Maxwell_Davies.jpg"
-                                    class="img-fluid rounded-start" alt="Peter_Maxwell_Davies">
+                                <img src="https://www.operatoday.com/Lighthouse1.png" class="img-fluid rounded-start"
+                                    alt="Peter_Maxwell_Davies">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body text-light">
                                     <h5 class="card-title oswald2">The Lighthouse</h5>
                                     <p class="card-text ibm">The mystery also was the inspiration for the composer Peter
                                         Maxwell Davies's modern chamber opera The Lighthouse (1979).</p>
+                                    <p class="card-text copyright">Image credit:Stefan Cohen/©2016 Stefan Cohen
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +131,7 @@
                         style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="https://i.discogs.com/9s-6Xh-Ff6KYnvN1ZhID0QC_VXNbs_QFfZrbmkh_yKo/rs:fit/g:sm/q:90/h:510/w:330/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MTA2/ODktMTMyOTMzOTA0/MC5qcGVn.jpeg"
+                                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/FromGenesistoRevelation.jpg/720px-FromGenesistoRevelation.jpg"
                                     class="img-fluid rounded-start" alt="genesis">
                             </div>
                             <div class="col-md-8">
@@ -110,6 +141,10 @@
                                         Mystery
                                         of Flannan Isle Lighthouse" in 1968 while working on their first album, but it
                                         was not released until 1998 in Genesis Archive 1967–75.</p>
+                                    <p class="card-text copyright">By Decca Records / Jonjo Music, Ltd. - For the
+                                        version of
+                                        03:11, 7 March 2007 : Public Domain,
+                                        https://en.wikipedia.org/w/index.php?curid=9906625</p>
                                 </div>
                             </div>
                         </div>
@@ -127,6 +162,8 @@
                                 <div class="card-body text-light">
                                     <h5 class="card-title oswald2">The Vanishing</h5>
                                     <p class="card-text ibm">The 2018 film The Vanishing is based on the event.</p>
+                                    <p class="card-text copyright">Image
+                                        credit:https://en.wikipedia.org/wiki/File:The_Vanishing_2019_poster.jpg</p>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +185,7 @@
                                     <p class="card-text ibm">Wilfrid Wilson Gibson's (1878–1962) poem "Flannan Isle"
                                         recounts the horror of the search party who find an empty lighthouse with no
                                         trace of "three men dead".</p>
-                                    </p>
+                                    <p class=" card-text copyright">Image credit:public domain</p>
                                 </div>
                             </div>
                         </div>
@@ -168,6 +205,9 @@
                                     <p class="card-text ibm">The indie horror video game Dark Fall II: Lights Out was
                                         partially inspired by this occurrence, and references both the Doctor Who
                                         episode and the W.W. Gibson poem listed above.</p>
+                                    <p class="card-text copyright">Image Credit:XXv
+                                        Productions/https://en.wikipedia.org/wiki/Dark_Fall_II:_Lights_Out#/media/File:Lightsoutcover.jpg
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -177,27 +217,31 @@
         </div>
     </main>
     <!--Beginning of footer-->
-    <footer>
+    <footer class="mt-0" style="width:100%">
         <div class="container-fluid">
-            <div class="">
-                <div class="row m-3">
-                    <div class="col">
-                        <div class="footer card border-0 text-center">
-                            <div class="card-body text-light">
-                                <h5 class="card-title oswald">Wikipedia Page</h5>
-                                <p class="card-text ibm">Click here to visit original wikipedia page.
-                                </p>
-                                <a href="https://en.wikipedia.org/wiki/Flannan_Isles_Lighthouse"
-                                    class="btn btn-primary">Wikipedia</a>
-                            </div>
+            <div class="row">
+                <div class="col p-0">
+                    <div class="footer card border-0 text-center" style="background-color: #0e2652;">
+                        <div class="card-body text-light">
+                            <a href="https://en.wikipedia.org/wiki/Flannan_Isles_Lighthouse"
+                                class="btn btn-primary">Wikipedia</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

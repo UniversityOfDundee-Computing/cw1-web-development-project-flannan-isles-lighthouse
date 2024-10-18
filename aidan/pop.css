@@ -1,7 +1,7 @@
 /*main parts*/
 
 body{
-    background-color: #7EA3CC
+    background-color: #eef1f5
 }
 
 header{
@@ -17,7 +17,7 @@ nav{
 }
 
 .cardz{
-    background-color: #2A4849;
+    background-color: #0e2652;
 }
 
 /*fonts*/
@@ -27,6 +27,7 @@ nav{
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 50px;
+    color: #040e21;
   }
 
 .oswald2{
@@ -35,13 +36,11 @@ nav{
     font-style: normal;
   }
 
-  .dokdo {
-    font-family: "East Sea Dokdo", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-  }
-
+.copyright{
+  font-family: "IBM Plex Serif", serif;
+    font-style: italic; 
+    font-size: xx-small;
+}
   .staat {
     font-family: "Staatliches", sans-serif;
     font-weight: 400;
@@ -57,6 +56,17 @@ nav{
   /*added borders*/
 
   .border-5 {
-    border-width:5px !important;
+    border-width:3px !important;
 }
   
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}

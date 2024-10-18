@@ -3,41 +3,55 @@
 }
 
 main {
-    background-color: #d8dee5;
+    background-color: #eef1f5;
 }
 
 .navcolor {
     color: rgb(109, 32, 32);
 }
 
-.background {
-    background-color: #b37f7f;
-}
+
 
 .textcolor {
-    color: white;
+    color: #040e21;
     font-size: 5vw;
     font-family: "IBM Plex Serif",
         serif;
+    font-weight: 400;
+    opacity: 0.9;
 }
 
 .marginfirst {
     width: 50vw;
 }
 
+.cardcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 900px;
-    padding-top: 400px;
-    padding-bottom: 400px;
+    height: 860px;
+    padding-top: 500px;
+    padding-bottom: 300px;
 }
 
 .line {
-    border: 0;
+    border: none;
     border-top: 3px solid #000000;
+}
 
+.lineondark {
+    border: none;
+    border-top: 3px solid #ffffff;
+}
+
+.backgroundg {
+    background-color: #ebeef0;
 }
 
 .imgf {
@@ -50,20 +64,32 @@ main {
 }
 
 .bg {
-    background-color: rgb(228, 228, 228);
+    background-color: #e4e5e8;
 }
 
+
+
 .borderstyle {
-    border-color: #1a3350;
+    border-color: #0e2652;
     border-left-width: 2.5px;
     border-left-style: solid;
 }
+
+.borderstyleondark {
+    border-color: #8c9bac;
+    border-left-width: 2.5px;
+    border-left-style: solid;
+}
+
+
 
 .contentquote {
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
     padding-left: 22px;
 }
+
+
 
 .bigquote {
     color: #1a3350;
@@ -73,22 +99,59 @@ main {
     margin-top: -22px;
 }
 
+.bigquoteondark {
+    color: #cfe0f4;
+    font-size: 4.4em;
+    position: absolute;
+    margin-top: -22px;
+}
+
+.bigquoteondark:first-of-type {
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+
+
+
+
+.contentquote1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    padding-left: 22px;
+}
+
+.bigquote1 {
+    color: #1a3350;
+    font-size: 4em;
+    position: absolute;
+    margin-top: -16px;
+}
+
+.bigquote1:first-of-type {
+    margin-left: -28px;
+    margin-top: -22px;
+}
+
 .bigquote:first-of-type {
     margin-left: -30px;
     margin-top: -30px;
 }
+
+
 
 .pallign {
     text-align: justify;
 }
 
 .responsivecolor {
-    height: 900px;
+    height: 860px;
     width: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 0px 400px rgba(0, 0, 0, 0.1);
 }
 
 .responsivecolor img {

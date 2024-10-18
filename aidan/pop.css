@@ -1,7 +1,7 @@
 /*main parts*/
 
 body{
-    background-color: #7EA3CC
+    background-color: #eef1f5
 }
 
 header{
@@ -17,7 +17,7 @@ nav{
 }
 
 .cardz{
-    background-color: #2A4849;
+    background-color: #0e2652;
 }
 
 /*fonts*/
@@ -27,6 +27,7 @@ nav{
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 50px;
+    color: #040e21;
   }
 
 .oswald2{

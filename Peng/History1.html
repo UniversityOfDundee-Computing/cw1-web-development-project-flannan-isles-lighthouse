@@ -11,9 +11,10 @@
          @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
 
         .history-section {
-            background-color: #cfe0f4;
-            padding: 50px 20px;
+            background-color: #e4e5e8;
+            padding: 40px 20px;
         }
+
         .history-title {
             text-align: center;
             margin-bottom: 40px;
@@ -22,23 +23,57 @@
             font-style: normal;
             color: #0b0b0b;
         }
+
         .history-content {
             font-family: "IBM Plex Serif", serif;
             font-weight: 400;
             font-style: normal
         }
+
         .history-content img {
             max-width: 100%;
             height: auto;
             border-radius: 8px;
-            margin-bottom: 20px;
         }
+
         .card {
-            margin: 20px 0;
+            margin: 0px;
         }
+
+        .textcolor {
+        color: #040e21;
+        font-size: 5vw;
+        font-family: "IBM Plex Serif",
+            serif;
+        font-weight: 400;
+        opacity: 0.9;
+        }
+
+        .content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 860px;
+        padding-top: 500px;
+        padding-bottom: 300px;
+        }
+        
+        .responsivecolor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 0px 400px rgba(0, 0, 0, 0.1);
+         }
+
+        .responsivecolor img {
+        height: 100%;
+        width: auto;
+        }
+
+    
     </style>
 </head>
-<body>
+<body >
     <!-- 導覽列 -->
     <nav class="navbar navbar-dark navcolor" data-bs-theme="dark" style="background-color: #1a3350;">
         <div class="container-fluid">
@@ -67,86 +102,105 @@
 
     <!--最上方圖片-->
     <main>
-        <div class="container-fluid" style="background: linear-gradient(to right, #6d7588, #1a3350);">
+        <div class="container-fluid"
+            style="background: linear-gradient(to right, #8f98a4,  #ebeef0); box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.6);">
             <div class="row">
-                <div class="col-8">
-                    <section class="ms-5 content">
+                <div class="col">
+                    <section class="ms-8 content">
                         <h1 class="textcolor"> Flannan Isles Lighthouse </h1>
 
                         <h1 class="textcolor"> History </h1>
                     </section>
-
                 </div>
-                <div class="col-4 m-0 p-0 responsivecolor">
-                    <img src="https://www.nlb.org.uk/wp-content/uploads/Flannan-Isles.jpg" alt="lighthouse">
+                <div class="col-5 m-0 p-0 responsivecolor">
+                    <img src="https://live.staticflickr.com/4216/35759252921_a157be4ffd_b.jpg" alt="lighthouse">
 
                 </div>
             </div>
         </div>
 
+
     <!-- 歷史部分 -->
-    <section class="history-section">
-        <div class="container py-2">
-            <div class="row">
-                <div class="col">
-                    <div class="card text-bg-light border-3">
-                        <div class="card-header">History</div>
+    <section class="history-section m-0">
+        <div class="container-fluid p-2 align-items-center">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="card text-bg-light border-dark background">
+                        <div class="card-header ps-4" style="background-color: #1a3350; color:aliceblue">History</div>
                         <div class="row mt-5 mb-0 mx-5">
                             <div class="col align-self-center">
 
-                <!-- 置中文字 -->
-                <div class="text-center"></div>
-                <div class="history-content">
-                    <p>The 23-metre (75 ft) lighthouse was designed by David Alan Stevenson for the Northern Lighthouse Board (NLB). Construction, between 1895 and 1899, was undertaken by George Lawson of Rutherglen at a cost of £1,899 (equivalent to £277,066 in 2023) inclusive of the building, landing places, stairs, and railway tracks. All of the materials used had to be hauled up the 45-metre (148 ft) cliffs directly from supply boats. A further £3,526 (£514,447 in 2023) was spent on the shore station at Breasclete on the Isle of Lewis. The lighthouse was first lit on 7 December 1899.</p>
-            
-                <!-- 左側圖片 -->
-                <div class="row">
-                <div class="col-md-6">
-                    <div class="card" style="width: 28rem;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Flannan_Isles_southwest_from_the_lighthouse_-_Geograph-3204860-by-Chris-Downer.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">The remains of the lighthouse railway in 2012. The "Clapham Junction" fork is visible at left middle.</p>
-                        </div>
-                      </div>
-                </div>
-                
-                <!-- 右側文字 -->
-                <div class="col-md-6 text-start">
-                    <div class="history-content">        
-                        <p>The purpose of the railway tracks was to facilitate the transport of provisions for the keepers and fuel for the light (paraffin, at that date; the light consumed twenty barrels a year) up the steep gradients from the landing places by means of a cable-hauled railway. This was powered by a small steam engine in a shed adjoining the lighthouse. A track descended from the lighthouse in a westerly direction and then curved round to the south. In the approximate centre of the island it forked by means of a set of hand-operated points humorously[citation needed] dubbed "Clapham Junction", in reference to a railway junction in London; one branch continued in its curvature to head eastwards to the east landing place, on the south-east corner of the island, thus forming a half-circle, while the other, slightly shorter, branch curved back to the west to serve the west landing, situated in a small inlet on the island's south coast. The final approaches to the landing stages were extremely steep. The cable was guided round the curves by pulleys set between the rails, and a line of posts set outside the inner rail prevented it from going too far astray should it jump off the pulleys. The cargo was carried in a small four-wheeled bogie.</p>
-                    </div>
-                </div>
 
-                <div class="container">
-                    <div class="row">
-                        <!-- 左側文字 -->
-                        <div class="col-md-6 text-start">
-                            <div class="history-content">       
-                                <p>In 1925, the lighthouse became one of the first Scottish lights to receive communications from the shore by wireless telegraphy. In the 1960s, the island's transport system was modernised. The railway was removed, leaving behind the concrete bed on which it had been laid to serve as a roadway for a "Gnat" – a three-wheeled, rubber-tyred cross-country vehicle powered by a 400-cubic-centimetre (24 cu in) four-stroke engine, built by Aimers McLean of Galashiels. This had a somewhat shorter working life than the railway, becoming redundant in its turn when the helipad was constructed.</p>
-                                <p>On 28 September 1971, the lighthouse was automated. A reinforced concrete helipad was constructed at the same time to enable maintenance visits in heavy weather. The light is produced by burning acetylene gas and has a range of 17 nautical miles (20 mi; 31 km). It is now monitored from the Butt of Lewis and the shore station has been converted into flats.</p>
+                                <!-- 置中文字 -->
+                                <div class="text-center">
+                                <div class="history-content">
+                                    <p>The 23-metre (75 ft) lighthouse was designed by David Alan Stevenson for the Northern Lighthouse Board (NLB). Construction, between 1895 and 1899, was undertaken by George Lawson of Rutherglen at a cost of £1,899 (equivalent to £277,066 in 2023) inclusive of the building, landing places, stairs, and railway tracks. All of the materials used had to be hauled up the 45-metre (148 ft) cliffs directly from supply boats. A further £3,526 (£514,447 in 2023) was spent on the shore station at Breasclete on the Isle of Lewis. The lighthouse was first lit on 7 December 1899.</p>
+                                </div>
+                                </div>
                             </div>
                         </div>
-                
-                <!-- 右側圖片 -->
-                <div class="col-md-6 d-flex align-items-center">
-                    <div class="card" style="width: 29rem;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/St._Flannan%27s_Cell_and_Flannan_Isles_Lighthouse_-_geograph.org.uk_-_623920.jpg" class="card-img-top" alt="..." style="width: 100%; height: auto;">
-                        <div class="card-body">
-                            <p class="card-text">The Chapel of St. Flannan can be seen on the slope to the right of the lighthouse on Eilean Mòr.</p>
-                            
+                        <!-- 左側圖片 -->
+                        <div class="row">
+                            <div class="col-md-6 px-5">
+                                <div class="card" style="width: 29rem;">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Flannan_Isles_southwest_from_the_lighthouse_-_Geograph-3204860-by-Chris-Downer.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text">The remains of the lighthouse railway in 2012. The "Clapham Junction" fork is visible at left middle.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        <!-- 右側文字 -->
+                            <div class="col-md-6 text-start px-5">
+                                <div class="history-content">        
+                                    <p>The purpose of the railway tracks was to facilitate the transport of provisions for the keepers and fuel for the light (paraffin, at that date; the light consumed twenty barrels a year) up the steep gradients from the landing places by means of a cable-hauled railway. This was powered by a small steam engine in a shed adjoining the lighthouse. A track descended from the lighthouse in a westerly direction and then curved round to the south. In the approximate centre of the island it forked by means of a set of hand-operated points humorously[citation needed] dubbed "Clapham Junction", in reference to a railway junction in London; one branch continued in its curvature to head eastwards to the east landing place, on the south-east corner of the island, thus forming a half-circle, while the other, slightly shorter, branch curved back to the west to serve the west landing, situated in a small inlet on the island's south coast. The final approaches to the landing stages were extremely steep. The cable was guided round the curves by pulleys set between the rails, and a line of posts set outside the inner rail prevented it from going too far astray should it jump off the pulleys. The cargo was carried in a small four-wheeled bogie.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <!-- 左側文字 -->
+                                <div class="col-md-6 text-start px-5">
+                                    <div class="history-content">      
+                                        <p>In 1925, the lighthouse became one of the first Scottish lights to receive communications from the shore by wireless telegraphy. In the 1960s, the island's transport system was modernised. The railway was removed, leaving behind the concrete bed on which it had been laid to serve as a roadway for a "Gnat" – a three-wheeled, rubber-tyred cross-country vehicle powered by a 400-cubic-centimetre (24 cu in) four-stroke engine, built by Aimers McLean of Galashiels. This had a somewhat shorter working life than the railway, becoming redundant in its turn when the helipad was constructed.</p>
+                                        <p>On 28 September 1971, the lighthouse was automated. A reinforced concrete helipad was constructed at the same time to enable maintenance visits in heavy weather. The light is produced by burning acetylene gas and has a range of 17 nautical miles (20 mi; 31 km). It is now monitored from the Butt of Lewis and the shore station has been converted into flats.</p>
+                                    </div>
+                                </div>
+                        
+                        <!-- 右側圖片 -->
+                                <div class="col-md-6 d-flex align-items-center">
+                                    <div class="card" style="width: 28rem;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/St._Flannan%27s_Cell_and_Flannan_Isles_Lighthouse_-_geograph.org.uk_-_623920.jpg" class="card-img-top" alt="..." style="width: 100%; height: auto;">
+                                        <div class="card-body">
+                                            <p class="card-text">The Chapel of St. Flannan can be seen on the slope to the right of the lighthouse on Eilean Mòr.</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
-        </div>                  
-    </div>
-</section>
+        </div>
+    </section>
+</main>
 
-    <main>
-        <p class="text-center" style="background-color: #FFFFFF;">
-            <a href= http://127.0.0.1:5500/vlada/disappearance.html class="btn btn-primary" style="background-color: #2c5789;">Next</a>
-        </p>
-    </main>
+<footer class="mt-0" style="width: 100%;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col p-0">
+                <div class="footer card border-0 text-center" style="background-color: #0e2652;">
+                    <div class="card-body text-light">
+                        <p class="text-center" style="background-color: #0e2652;"></p>
+                        <a href="http://127.0.0.1:5500/vlada/disappearance.html"class="btn btn-primary">Next</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

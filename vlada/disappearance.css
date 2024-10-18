@@ -15,7 +15,7 @@ main {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 960px;
+    height: 860px;
     padding-top: 500px;
     padding-bottom: 300px;
 }
@@ -31,7 +31,7 @@ main {
 
 
 .responsivecolor {
-    height: 960px;
+    height: 860px;
     width: 100%;
     overflow: hidden;
     display: flex;
@@ -138,18 +138,19 @@ main {
 .contentquote1 {
     font-family: 'Roboto Slab', serif;
     font-size: 15px;
-    padding-left: 22px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 .bigquote1 {
     color: #1a3350;
     font-size: 4em;
     position: absolute;
-    margin-top: -16px;
+    margin-top: -14px;
 }
 
 .bigquote1:first-of-type {
-    margin-left: -28px;
+    margin-left: -22px;
     margin-top: -22px;
 }
 

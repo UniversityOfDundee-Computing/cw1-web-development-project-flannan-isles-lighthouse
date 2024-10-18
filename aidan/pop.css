@@ -36,13 +36,11 @@ nav{
     font-style: normal;
   }
 
-  .dokdo {
-    font-family: "East Sea Dokdo", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-  }
-
+.copyright{
+  font-family: "IBM Plex Serif", serif;
+    font-style: italic; 
+    font-size: xx-small;
+}
   .staat {
     font-family: "Staatliches", sans-serif;
     font-weight: 400;

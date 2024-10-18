@@ -11,6 +11,14 @@ main {
 }
 
 
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 860px;
+    padding-top: 500px;
+    padding-bottom: 300px;
+}
 
 .textcolor {
     color: #040e21;
@@ -20,6 +28,25 @@ main {
     font-weight: 400;
     opacity: 0.9;
 }
+
+
+.responsivecolor {
+    height: 860px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 0px 400px rgba(0, 0, 0, 0.1);
+}
+
+.responsivecolor img {
+    height: 100%;
+    width: auto;
+}
+
+
+
 
 .marginfirst {
     width: 50vw;
@@ -31,14 +58,7 @@ main {
     align-items: center;
 }
 
-.content {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 860px;
-    padding-top: 500px;
-    padding-bottom: 300px;
-}
+
 
 .line {
     border: none;
@@ -142,19 +162,4 @@ main {
 
 .pallign {
     text-align: justify;
-}
-
-.responsivecolor {
-    height: 860px;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 5px 0px 400px rgba(0, 0, 0, 0.1);
-}
-
-.responsivecolor img {
-    height: 100%;
-    width: auto;
 }
